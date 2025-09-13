@@ -4,14 +4,32 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: "Merriweather", serif;
+h1 {
+    font-family: "Tagesschrift", cursive;
+    font-size: 3rem;
+    text-align: center;
+    margin: 20px 0;
 }
 
-.pdf-viewer {
+body {
+    font-family: "Merriweather", serif;
+    background-color:#b1a1a1
+
+}
+
+
+.container {
     background-color: #b1a1a1;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 3px solid red;
+}
+
+.pdf-viewer {
+    background-color: #eae2e2;
+    height: 90vh;
+    width: 40vw;
+    text-align: center;
 }
