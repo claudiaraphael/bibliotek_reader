@@ -33,11 +33,8 @@ button {
     background-color: #b1a1a1;
     height: 100vh;
     display: flex;
-    grid-template-areas:
-        "menu pdf-viewer"
-        "menu pdf-viewer"
-        "menu pdf-viewer";
     border: 3px solid red;
+    flex-direction: row;
 }
 
 .menu {
@@ -45,16 +42,20 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 100vh;
+    background-color: beige
 }
 
 .pages {
     display: flex;
     flex-direction: column;
+    height: 100vh;
+    background-color: beige;
 }
 
 .pdf-viewer {
     background-color: #eae2e2;
-
+    height: 100%;
     text-align: center;
     box-sizing: border-box;
     border: solid rgb(76, 0, 255) 3px;
