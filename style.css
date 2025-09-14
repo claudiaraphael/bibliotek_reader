@@ -32,7 +32,7 @@ button {
 .container {
     background-color: #b1a1a1;
     height: 100vh;
-    display: grid;
+    display: flex;
     grid-template-areas:
         "menu pdf-viewer"
         "menu pdf-viewer"
