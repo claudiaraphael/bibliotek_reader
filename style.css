@@ -33,19 +33,44 @@ button {
     background-color: #b1a1a1;
     height: 100vh;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;  
+    grid-template-areas:
+        "menu pdf-viewer"
+        "menu pdf-viewer"
+        "menu pdf-viewer";
     border: 3px solid red;
 }
 
 .menu {
-    border: solid red 3px;
+    border: solid rgba(0, 255, 60, 0.767) 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pages {
+    display: flex;
+    flex-direction: column;
 }
 
 .pdf-viewer {
     background-color: #eae2e2;
-    height: 90vh;
-    width: 40vw;
+
     text-align: center;
     box-sizing: border-box;
-    border: solid red 3px;
+    border: solid rgb(76, 0, 255) 3px;
+}
+
+.navigation {
+    border: solid rgb(55, 13, 145) 3px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.menu2 {
+    border: solid rgb(255, 0, 225) 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
