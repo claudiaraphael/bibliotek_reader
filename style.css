@@ -3,7 +3,7 @@
     https://colorhunt.co/ - Replaced with a modern, professional palette
 */
 :root {
-    --background-color: #E2E8F0; /* A light, soft gray-blue */
+    --background-color: #ffff; /* A light, soft gray-blue */
     --glass-background: rgba(255, 255, 255, 0.2); /* Semi-transparent white for glass effect */
     --glass-border: rgba(255, 255, 255, 0.4); /* Subtle border color */
     --button-text-color: #334155; /* Dark text for readability */
@@ -17,8 +17,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgb(228, 221, 234)
-}
+    background-color: var(--background-color);
 
 /* Use a professional, readable font */
 body {
